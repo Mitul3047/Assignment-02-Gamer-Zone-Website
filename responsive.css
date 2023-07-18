@@ -1,4 +1,18 @@
 @media screen and (max-width:425px) {
+    
+
+    header{
+        margin: auto;
+    }
+    
+    .nav-container,
+    .nav-menu {
+        flex-direction: column;
+        /* width: 100%; */
+        
+
+    }
+    
     .game-list-container{
         grid-template-columns: repeat(3, 1fr);
         padding: 120px 240px;
