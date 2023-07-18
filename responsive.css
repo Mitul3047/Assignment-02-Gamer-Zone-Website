@@ -1,0 +1,7 @@
+@media screen and (max-width:425px) {
+    .game-list-container{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 120px 240px;
+        width: 100%;;
+    }
+}
